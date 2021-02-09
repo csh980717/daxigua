@@ -2038,13 +2038,13 @@ window.__require = function e(t, n, o) {
                         r = (a = i.lastIndexOf("/"), i.substring(a + 1, i.length));
                     this.gameHttpId = r, console.log("gameIdNew", r);
                     e.substring(e.lastIndexOf("//") + 4, e.lastIndexOf("com") + 3);
-                    this.moreGameUrl = t + n, console.log("moreGame", this.moreGameUrl)
+                    this.moreGameUrl = t + n
                 },
                 gameOverShowText: function(e, t) {
-                    this.ajaxLoad(this.subScoreHttp, "gameScore=" + e + "&gameId=" + this.gameHttpId + "&gameType=" + t, this.scoreResult)
+                    // this.ajaxLoad(this.subScoreHttp, "gameScore=" + e + "&gameId=" + this.gameHttpId + "&gameType=" + t, this.scoreResult)
                 },
                 gamePV_load: function() {
-                    this.ajaxLoad(this.gamePvHttp, "gameId=" + this.gameHttpId, this.ajaxOnLogoResult)
+                    // this.ajaxLoad(this.gamePvHttp, "gameId=" + this.gameHttpId, this.ajaxOnLogoResult)
                 },
                 ajaxOnLogoResult: function() {},
                 ajaxLoad: function(e, t, n) {
